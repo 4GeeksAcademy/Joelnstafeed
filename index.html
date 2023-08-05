@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/aceefaf4d3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Instagram</title>
+</head>
+<body>
+  <div class="container text bg-light">
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <i class="bi bi-instagram">Instagram</i>
+        <form class="d-flex" role="search">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create new post
+          </button>
+          <div class="btn-group ms-2">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-gear"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accesibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-danger" href="#">Logout<i class="bi bi-box-arrow-in-right ms-1"></i></a></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </nav>
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+            <i class="bi bi-grid-3x3-gap"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+            <i class="bi bi-grid-3x3"></i>
+          </button>
+        </li>
+      </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="text-fluid mg-1">
+          <img src="img/q.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/w.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/e.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/r.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/t.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/y.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/u.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/i.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/o.jpeg" class="img-fluid img-thumbail" alt="...">
+          <img src="img/p.jpeg" class="img-fluid img-thumbail" alt="...">
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="card" >
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>IA create this photo</h3>
+            </li>
+            <li class="list-group-item">
+              <img src="img/q.jpeg" alt="...">
+            </li>
+            <li class="list-group-item">
+              <h6>300<b>Likes</b></h6>
+              <p><b>By:</b>@IA_Company_Photoproyect</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>IA create this photo</h3>
+            </li>
+            <li class="list-group-item">
+              <img src="img/w.jpeg" alt="...">
+            </li>
+            <li class="list-group-item">
+              <h6>300<b>Likes</b></h6>
+              <p><b>By:</b>@IA_Company_Photoproyect</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card" >
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>IA create this photo</h3>
+            </li>
+            <li class="list-group-item">
+              <img src="img/e.jpeg" alt="...">
+            </li>
+            <li class="list-group-item">
+              <h6>300<b>Likes</b></h6>
+              <p><b>By:</b>@IA_Company_Photoproyect</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card" >
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>IA create this photo</h3>
+            </li>
+            <li class="list-group-item">
+              <img src="img/r.jpeg" alt="...">
+            </li>
+            <li class="list-group-item">
+              <h6>300<b>Likes</b></h6>
+              <p><b>By:</b>@IA_Company_Photoproyect</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card" >
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>IA create this photo</h3>
+            </li>
+            <li class="list-group-item">
+              <img src="img/t.jpeg" alt="...">
+            </li>
+            <li class="list-group-item">
+              <h6>300<b>Likes</b></h6>
+              <p><b>By:</b>@IA_Company_Photoproyect</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card" >
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>IA create this photo</h3>
+            </li>
+            <li class="list-group-item">
+              <img src="img/y.jpeg" alt="...">
+            </li>
+            <li class="list-group-item">
+              <h6>300<b>Likes</b></h6>
+              <p><b>By:</b>@IA_Company_Photoproyect</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
+            <textarea class="form-control" placeholder=" Add new post over here dude" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light">
+              <i class="bi bi-camera"></i>
+            </button>
+            <button type="button" class="btn btn-light">
+              <i class="bi bi-geo-alt-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Post</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
